@@ -1,0 +1,487 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.58f1 (ed7f6eacb62e) revision 15564654'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'ko' Physical Memory: 16288 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.58f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/csb/easytomake
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+63292
+Successfully changed project path to: C:/Users/csb/easytomake
+C:/Users/csb/easytomake
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [24088]  Target information:
+
+Player connection [24088]  * "[IP] 59.17.29.24 [Port] 0 [Flags] 2 [Guid] 1560597603 [EditorId] 1560597603 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FS2DC8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24088]  * "[IP] 172.21.192.1 [Port] 0 [Flags] 2 [Guid] 1560597603 [EditorId] 1560597603 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-FS2DC8D) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [24088] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [24088] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 7.24 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.58f1 (ed7f6eacb62e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/csb/easytomake/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4070 SUPER (ID=0x2783)
+    Vendor:   NVIDIA
+    VRAM:     11999 MB
+    Driver:   32.0.15.7652
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.58f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004463 seconds.
+- Loaded All Assemblies, in  0.262 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.226 seconds
+Domain Reload Profiling: 487ms
+	BeginReloadAssembly (89ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (96ms)
+		LoadAssemblies (88ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (95ms)
+			TypeCache.Refresh (94ms)
+				TypeCache.ScanAssembly (85ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (227ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (191ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (37ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.519 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.553 seconds
+Domain Reload Profiling: 1070ms
+	BeginReloadAssembly (128ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (320ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (149ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (112ms)
+			ScanForSourceGeneratedMonoScriptInfo (17ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (553ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (438ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (355ms)
+			ProcessInitializeOnLoadMethodAttributes (16ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 27.90 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3783 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (129.7 KB). Loaded Objects now: 4270.
+Memory consumption went from 167.5 MB to 167.3 MB.
+Total: 9.780000 ms (FindLiveObjects: 0.803700 ms CreateObjectMapping: 0.157900 ms MarkObjects: 8.577000 ms  DeleteObjects: 0.240100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2933.589354 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_DyingBreath_00.mp3
+  artifactKey: Guid(637162f47796b44ad8b65114350467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_DyingBreath_00.mp3 using Guid(637162f47796b44ad8b65114350467e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0131b8ae37f50b65a4fda69fc17d97b9') in 0.334923 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_04.mp3
+  artifactKey: Guid(60827768f77c347cbb9ff1894923ff2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_04.mp3 using Guid(60827768f77c347cbb9ff1894923ff2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8ac1fde9c1f73da1345c9e5312a0f5e') in 0.016783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.004615 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_00.mp3
+  artifactKey: Guid(5cb888e12b2de42a5b38fdcdc74fbbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_00.mp3 using Guid(5cb888e12b2de42a5b38fdcdc74fbbfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '582ee537195200c303f049f231401d8c') in 0.015332 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_04.mp3
+  artifactKey: Guid(a7d3d3388790742c090ac439e1ddebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_04.mp3 using Guid(a7d3d3388790742c090ac439e1ddebd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6c655a9e79c6cb9fd08a1451c01580a3') in 0.014588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_12.mp3
+  artifactKey: Guid(2993cc7ca2f0641ab8eb00157860182a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_12.mp3 using Guid(2993cc7ca2f0641ab8eb00157860182a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c599f7a582290eaf724e9e437cd9dcde') in 0.015366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human
+  artifactKey: Guid(526567b3d86ec9f40bef79ec2d0e6158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human using Guid(526567b3d86ec9f40bef79ec2d0e6158) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2b370724d3e004a3b0ed8050093e3b6d') in 0.000552 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_10.mp3
+  artifactKey: Guid(de7fd1d9f19434eb4a8a3719b2b10fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_10.mp3 using Guid(de7fd1d9f19434eb4a8a3719b2b10fb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58a1ff47a60f918d72ba81cc6cfddfa5') in 0.015780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_06.mp3
+  artifactKey: Guid(b587aed989d7b441f9f08e06d2884d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_06.mp3 using Guid(b587aed989d7b441f9f08e06d2884d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '54c28f357087f020edc284c91cc7bf6a') in 0.015704 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_14.mp3
+  artifactKey: Guid(614d5955c071c4206b5f5939faf93f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_14.mp3 using Guid(614d5955c071c4206b5f5939faf93f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e0e9237461c4b6604c3ef31e2ec9c97b') in 0.015681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_08.mp3
+  artifactKey: Guid(b494dd4b971de47a08ca72493afee199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_08.mp3 using Guid(b494dd4b971de47a08ca72493afee199) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e1e326b66aa3a6261ae130f67b2292ce') in 0.014899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_03.mp3
+  artifactKey: Guid(39410a9aa5c3b4f77b1c97413fcf091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_03.mp3 using Guid(39410a9aa5c3b4f77b1c97413fcf091d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04601e6a7378d1c9638fdd5546ef476a') in 0.018655 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_13.mp3
+  artifactKey: Guid(28a9d702658c2441c9835b35603e82eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_13.mp3 using Guid(28a9d702658c2441c9835b35603e82eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4415ed2f8dfb28e44e598913969d523a') in 0.014850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_11.mp3
+  artifactKey: Guid(8d6a76aa6d8664b0aa4a5db5bd73db0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Evil_11.mp3 using Guid(8d6a76aa6d8664b0aa4a5db5bd73db0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ce6f51961e976b65b8911a86772eb392') in 0.015769 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 101.965458 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_07.mp3
+  artifactKey: Guid(c20ab85ffcf554a3580e2da7c1a7e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_07.mp3 using Guid(c20ab85ffcf554a3580e2da7c1a7e507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '58a26874a1486a775826838cc34b23c3') in 0.017825 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_10.mp3
+  artifactKey: Guid(63504c987000a4a3ca37101d3df459d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_10.mp3 using Guid(63504c987000a4a3ca37101d3df459d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3b347732542fb72273831bc70422d736') in 0.013387 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_08.mp3
+  artifactKey: Guid(347be6132ac9343c38f3052345e76374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_08.mp3 using Guid(347be6132ac9343c38f3052345e76374) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87a3e33f00d88f2a9564e273e1c8b14b') in 0.017185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_12.mp3
+  artifactKey: Guid(f643cc92f23344b7cb9815024ed1030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_12.mp3 using Guid(f643cc92f23344b7cb9815024ed1030f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '72e613def08bee6f90bf628be9026a1f') in 0.016772 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.741514 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_16.mp3
+  artifactKey: Guid(89ac6553012094c96adb39a3e824d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_16.mp3 using Guid(89ac6553012094c96adb39a3e824d9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de81fa6452b60cc80e57ccab864323ab') in 0.016441 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_20.mp3
+  artifactKey: Guid(be8f35d0ffa544fde837064d01ad7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_20.mp3 using Guid(be8f35d0ffa544fde837064d01ad7063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '67178c8da5ba9faa6be90dc0170d5742') in 0.015919 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_26.mp3
+  artifactKey: Guid(eddb32cb9e31745e4a7ae6c624b9ef37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_26.mp3 using Guid(eddb32cb9e31745e4a7ae6c624b9ef37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f9bd17a22b88c175f06c6dd7ab63ac64') in 0.016019 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_28.mp3
+  artifactKey: Guid(3f33e2cdbc8184a90a3957b2539f6a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_28.mp3 using Guid(3f33e2cdbc8184a90a3957b2539f6a77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '48ee233b0c4c238307dd5f5c3203218b') in 0.014061 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_21.mp3
+  artifactKey: Guid(39163347a935d4e2aa579c458fa73ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_21.mp3 using Guid(39163347a935d4e2aa579c458fa73ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5a9d9198aef2e9d3dcd3939f793b61fb') in 0.014742 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_19.mp3
+  artifactKey: Guid(6bd1835d3379443f480d3953eaa3be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_19.mp3 using Guid(6bd1835d3379443f480d3953eaa3be02) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f41c9d1504806ad4647acb453eb735d') in 0.016613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/EX/Voices Sfx/Mp3/Human/Human_Good_30.mp3
+  artifactKey: Guid(9d41b7eb510d346f7a7fa6eefd4d166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/EX/Voices Sfx/Mp3/Human/Human_Good_30.mp3 using Guid(9d41b7eb510d346f7a7fa6eefd4d166a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd1b39d0e96c69333c3780ee0237dc7bc') in 0.014771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.365 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.810 seconds
+Domain Reload Profiling: 1174ms
+	BeginReloadAssembly (129ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (25ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (172ms)
+		LoadAssemblies (224ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (811ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (388ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (307ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3754 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (99.7 KB). Loaded Objects now: 4295.
+Memory consumption went from 165.4 MB to 165.3 MB.
+Total: 4.690700 ms (FindLiveObjects: 0.426600 ms CreateObjectMapping: 0.135100 ms MarkObjects: 4.051500 ms  DeleteObjects: 0.076500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
